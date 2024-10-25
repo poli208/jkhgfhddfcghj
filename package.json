@@ -1,0 +1,26 @@
+{
+  "name": "ups",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@telegraf/session": "2.0.0-beta.6",
+    "dotenv": "16.4.5",
+    "knex": "3.1.0",
+    "kysely": "0.23.5",
+    "pg": "8.13.0",
+    "sequelize": "6.37.4",
+    "set-interval-async": "3.0.3",
+    "telegraf": "3.39.0",
+    "telegraf-i18n": "6.6.0"
+  },
+  "devDependencies": {
+    "@types/pg": "8.11.10"
+  }
+}
